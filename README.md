@@ -18,7 +18,7 @@ git clone https://github.com/openedx/xblock-sdk.git
 #### Change directory to SDK directory and install requirements:
 ```
 cd xblock-sdk
-pip install -r requirements/base.txt
+pip3 install -r requirements/base.txt
 ```
 #### Return to project root directory and install newblock:
 ```
@@ -28,6 +28,7 @@ pip3 install -e newblock
 #### Run migration and local server (Note that you should be in sdk-dir):
 ```
 cd xblock-sdk
+make install
 python3 manage.py migrate
 python3 manage.py runserver
 ```
