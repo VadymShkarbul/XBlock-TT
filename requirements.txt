@@ -1,0 +1,2 @@
+XBlock~=1.6.1
+xblock-utils==3.0.0
